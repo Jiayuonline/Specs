@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = "11.0"
 
-  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineKit/0.0.1/JiaYuOnlineKit.zip"}
+  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineKit/0.0.2/JiaYuOnlineKit.zip"}
 
   spec.dependency "TYKit", "~> 0.1.2"
   spec.dependency "ZFPlayer", "~> 3.2.12"
