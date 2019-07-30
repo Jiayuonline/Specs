@@ -6,7 +6,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://www.jiayuonline.com"
   spec.author       = { "yu.tian" => "yu.tian@jiayuonline.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineKit/0.0.3/JiaYuOnlineKit.zip"}
+  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineKit/0.0.3/jykit.zip"}
+  spec.vendored_frameworks = 'jykit/JiaYuOnlineKit.framework'
+  spec.resources = "jykit/JiaYuOnlineKit.bundle"
 
   spec.dependency "TYKit"
   spec.dependency "ZFPlayer"
