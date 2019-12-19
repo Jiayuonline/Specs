@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "http://www.jiayuonline.com"
   spec.author       = { "yu.tian" => "yu.tian@jiayuonline.com" }
   spec.platform     = :ios, "11.0"
-  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineCore/0.0.3/core.zip"}
+  spec.source       = {:http => "https://jiayu-ios-sdk.oss-cn-shanghai.aliyuncs.com/JiaYuOnlineCore/0.0.6/core.zip"}
   spec.vendored_frameworks = 'core/JiaYuOnlineCore.framework'
 
 end
